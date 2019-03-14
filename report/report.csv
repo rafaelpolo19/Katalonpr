@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Zoho,Chrome 72.0.3626.109,,2019-03-12 14:17:46,2019-03-12 14:18:41,55.854s,PASSED
+,,,,,,
+Test Cases/Zoho,Chrome 72.0.3626.109,,2019-03-12 14:17:47,2019-03-12 14:18:41,53.193s,PASSED
+"openBrowser(""https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com//workplace/pricing.html?src=zmail-signup&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F"")",Chrome 72.0.3626.109,,2019-03-12 14:17:50,2019-03-12 14:18:03,13.056s,PASSED
+"setEncryptedText(findTestObject(""input_username""), ""/qFNx0rqStfBBglodI/1Aw=="")",Chrome 72.0.3626.109,,2019-03-12 14:18:03,2019-03-12 14:18:05,1.959s,PASSED
+"setEncryptedText(findTestObject(""input_pwd""), ""wvKuO/7+M90urnQVYSbITw=="")",Chrome 72.0.3626.109,,2019-03-12 14:18:05,2019-03-12 14:18:06,0.699s,PASSED
+"click(findTestObject(""div_Iniciar sesin""))",Chrome 72.0.3626.109,,2019-03-12 14:18:06,2019-03-12 14:18:06,0.605s,PASSED
+delay(5),Chrome 72.0.3626.109,,2019-03-12 14:18:06,2019-03-12 14:18:11,5.199s,PASSED
+"click(findTestObject(""a_Yes I Understand""))",Chrome 72.0.3626.109,,2019-03-12 14:18:11,2019-03-12 14:18:11,0.060s,NOT_RUN
+delay(15),Chrome 72.0.3626.109,,2019-03-12 14:18:11,2019-03-12 14:18:26,15.027s,PASSED
+"click(findTestObject(""span_Correo nuevo""))",Chrome 72.0.3626.109,,2019-03-12 14:18:26,2019-03-12 14:18:27,0.499s,PASSED
+delay(5),Chrome 72.0.3626.109,,2019-03-12 14:18:27,2019-03-12 14:18:32,5.019s,PASSED
+"setEncryptedText(findTestObject(""input_Para""), ""NQIXcwPPhAm3awOpzJEpfCYlpvXdc2WAglBth6gA/CKm8OCyrtgI6w=="")",Chrome 72.0.3626.109,,2019-03-12 14:18:32,2019-03-12 14:18:34,1.812s,PASSED
+"setText(findTestObject(""input_Asunto""), ""Prueba"")",Chrome 72.0.3626.109,,2019-03-12 14:18:34,2019-03-12 14:18:35,1.339s,PASSED
+delay(5),Chrome 72.0.3626.109,,2019-03-12 14:18:35,2019-03-12 14:18:40,5.028s,PASSED
+"click(findTestObject(""span_Enviar""))",Chrome 72.0.3626.109,,2019-03-12 14:18:40,2019-03-12 14:18:41,0.436s,PASSED

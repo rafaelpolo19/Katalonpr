@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Zoho" time="55" tests="1" failures="0" errors="0">
+   <testsuite name="Zoho" tests="1" failures="0" errors="0" time="55" timestamp="2019-03-12 14:17:46" hostname="root - fa311a0a13a2" id="Test Suites/Zoho">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/Zoho/20190312_141736"/>
+         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/Zoho/20190312_141736/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="root - fa311a0a13a2"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="sessionId" value="c697d80cff1a7635e1ea49a9f8ea53cc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Zoho" classname="Test Cases/Zoho" status="PASSED">
+         <system-out><![CDATA[2019-03-12 14:17:47 - [TEST_CASE][PASSED] - Test Cases/Zoho: Test Cases/Zoho
+
+2019-03-12 14:17:50 - [TEST_STEP][PASSED] - openBrowser("https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com//workplace/pricing.html?src=zmail-signup&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F"): Browser is opened with url: 'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com//workplace/pricing.html?src=zmail-signup&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+
+2019-03-12 14:17:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-12 14:17:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-12 14:18:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com//workplace/pricing.html?src=zmail-signup&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+
+2019-03-12 14:18:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("input_username"), "/qFNx0rqStfBBglodI/1Aw=="): Text ****** has been set on object 'Object Repository/input_username'
+
+2019-03-12 14:18:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_username'
+
+2019-03-12 14:18:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("input_pwd"), "wvKuO/7+M90urnQVYSbITw=="): Text ****** has been set on object 'Object Repository/input_pwd'
+
+2019-03-12 14:18:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_pwd'
+
+2019-03-12 14:18:06 - [TEST_STEP][PASSED] - click(findTestObject("div_Iniciar sesin")): Object: 'Object Repository/div_Iniciar sesin' is clicked on
+
+2019-03-12 14:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Iniciar sesin' is clicked on
+
+2019-03-12 14:18:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-12 14:18:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-12 14:18:11 - [TEST_STEP][NOT_RUN] - click(findTestObject("a_Yes I Understand")): NOT_RUN: click(findTestObject("a_Yes I Understand"))
+
+2019-03-12 14:18:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("a_Yes I Understand"))
+
+2019-03-12 14:18:11 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2019-03-12 14:18:26 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-03-12 14:18:26 - [TEST_STEP][PASSED] - click(findTestObject("span_Correo nuevo")): Object: 'Object Repository/span_Correo nuevo' is clicked on
+
+2019-03-12 14:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Correo nuevo' is clicked on
+
+2019-03-12 14:18:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-12 14:18:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-12 14:18:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("input_Para"), "NQIXcwPPhAm3awOpzJEpfCYlpvXdc2WAglBth6gA/CKm8OCyrtgI6w=="): Text ****** has been set on object 'Object Repository/input_Para'
+
+2019-03-12 14:18:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Para'
+
+2019-03-12 14:18:34 - [TEST_STEP][PASSED] - setText(findTestObject("input_Asunto"), "Prueba"): Text 'Prueba' is set on object 'Object Repository/input_Asunto'
+
+2019-03-12 14:18:35 - [MESSAGE][PASSED] - Text 'Prueba' is set on object 'Object Repository/input_Asunto'
+
+2019-03-12 14:18:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-12 14:18:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-12 14:18:40 - [TEST_STEP][PASSED] - click(findTestObject("span_Enviar")): Object: 'Object Repository/span_Enviar' is clicked on
+
+2019-03-12 14:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Enviar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-12 14:17:46 - [TEST_SUITE][PASSED] - Zoho: Test Cases/Zoho]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
