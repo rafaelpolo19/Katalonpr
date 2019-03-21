@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://www.mail.com/int')
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('a_Log in'))
 
 WebUI.delay(2)
@@ -47,10 +49,6 @@ WebUI.click(findTestObject('span_Subject_email_rko'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Asunto'), 'Prueba katalon')
-
-WebUI.delay(2)
-
 WebUI.click(findTestObject('span_icon'))
 
 WebUI.delay(2)
@@ -59,5 +57,5 @@ WebUI.click(findTestObject('span_wellplayed'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('button_Send_aaa'))
+WebUI.click(findTestObject('Page_Free Email Addresses Web based and secure Email - mailcom/button_Send'))
 

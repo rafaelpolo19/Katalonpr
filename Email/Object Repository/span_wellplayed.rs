@@ -6,6 +6,10 @@
    <elementGuidId>63269609-b216-4672-a89d-61eab289b459</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'smileypanel_smiley smiley-sprite smiley-s_33' and @data-image-name = 's_33.gif' and @ref_element = 'Object Repository/iframe_iOS App_mail (2)']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='idfb']/div/div/div/ul/li[28]/span</value>
       </entry>
@@ -20,21 +24,21 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>smileypanel_smiley smiley-sprite smiley-s_33</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-image-name</name>
       <type>Main</type>
       <value>s_33.gif</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
