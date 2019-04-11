@@ -1,144 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Send</name>
+   <name>iframe_iOS App_mail</name>
    <tag></tag>
-   <elementGuidId>162a226c-e0a3-4b75-9918-a4adcf4ceb5e</elementGuidId>
+   <elementGuidId>ae2d4e51-7e5e-4d39-a338-e64efe3376f5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='idab']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;idab&quot;)[count(. | //button[@name = 'composeHeader:buttonSend' and @id = 'idab' and @type = 'button' and @class = 'm-button button-cta button-size-large button-block compose-header_send compose-header_item js-compose-send-button js-component' and @data-component = 'Button' and (text() = '
-Send
-
-
-' or . = '
-Send
-
-
-') and @ref_element = 'Object Repository/Page_Free Email Addresses Web based and secure Email - mailcom/iframe_iOS App_mail']) = count(//button[@name = 'composeHeader:buttonSend' and @id = 'idab' and @type = 'button' and @class = 'm-button button-cta button-size-large button-block compose-header_send compose-header_item js-compose-send-button js-component' and @data-component = 'Button' and (text() = '
-Send
-
-
-' or . = '
-Send
-
-
-') and @ref_element = 'Object Repository/Page_Free Email Addresses Web based and secure Email - mailcom/iframe_iOS App_mail'])]</value>
+         <value>//iframe[@id='thirdPartyFrame_mail']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>iframe</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>allow</name>
+      <type>Main</type>
+      <value>geolocation *;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>allowfullscreen</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>allowtransparency</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>atl-app-stack__children l-vertical atl-app-stack__children--active</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>frameborder</name>
+      <type>Main</type>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>src</name>
       <type>Main</type>
-      <value>composeHeader:buttonSend</value>
+      <value>https://3c-lxa.mail.com/mail/client/start;jsessionid=34737F21A9B2760A40DACAD7CD681DF3-n2.lxa01a?uc=SUCCESS&amp;navigator_theme=mailcomblue&amp;navigator_bg=mailcomblue#buqykvfl</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>third-party-frame_mail</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>idab</value>
+      <value>thirdPartyFrame_mail</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>name</name>
       <type>Main</type>
-      <value>button</value>
+      <value>mail</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>m-button button-cta button-size-large button-block compose-header_send compose-header_item js-compose-send-button js-component</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-component</name>
-      <type>Main</type>
-      <value>Button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-Send
-
-
-</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;idab&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Free Email Addresses Web based and secure Email - mailcom/iframe_iOS App_mail</value>
+      <value>id(&quot;thirdPartyFrame_mail&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//button[@id='idab']</value>
+      <value>//iframe[@id='thirdPartyFrame_mail']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='idd6']/div[2]/div[2]/button</value>
+      <value>//div[@id='app-contents-wrapper']/atl-app-stack/atl-app-iframe[3]/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subject'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='iOS App'])[1]/following::iframe[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bcc'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Android-App'])[1]/following::iframe[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='From/Cc/Bcc'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::iframe[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Increase attachment size limit'])[1]/preceding::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::iframe[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//button</value>
+      <value>//atl-app-iframe[3]/iframe</value>
    </webElementXpaths>
 </WebElementEntity>

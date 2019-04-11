@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Send</name>
+   <name>button_Send_mole</name>
    <tag></tag>
-   <elementGuidId>162a226c-e0a3-4b75-9918-a4adcf4ceb5e</elementGuidId>
+   <elementGuidId>111c112e-5117-474c-97b5-407dcaa6e1f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='idab']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;idab&quot;)[count(. | //button[@name = 'composeHeader:buttonSend' and @id = 'idab' and @type = 'button' and @class = 'm-button button-cta button-size-large button-block compose-header_send compose-header_item js-compose-send-button js-component' and @data-component = 'Button' and (text() = '
-Send
-
-
-' or . = '
-Send
-
-
-') and @ref_element = 'Object Repository/Page_Free Email Addresses Web based and secure Email - mailcom/iframe_iOS App_mail']) = count(//button[@name = 'composeHeader:buttonSend' and @id = 'idab' and @type = 'button' and @class = 'm-button button-cta button-size-large button-block compose-header_send compose-header_item js-compose-send-button js-component' and @data-component = 'Button' and (text() = '
-Send
-
-
-' or . = '
-Send
-
-
-') and @ref_element = 'Object Repository/Page_Free Email Addresses Web based and secure Email - mailcom/iframe_iOS App_mail'])]</value>
+         <value>//button[@id='compose-send-button']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,16 +22,16 @@ Send
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>composeHeader:buttonSend</value>
+      <value>compose-send-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>idab</value>
+      <value>composeHeader:buttonSend</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,14 +41,14 @@ Send
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-button button-cta button-size-large button-block compose-header_send compose-header_item js-compose-send-button js-component</value>
+      <value>m-button button-cta button-size-large button-block compose-header_send compose-header_item js-component</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-component</name>
       <type>Main</type>
@@ -86,30 +66,30 @@ Send
 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;idab&quot;)</value>
+      <value>id(&quot;compose-send-button&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Free Email Addresses Web based and secure Email - mailcom/iframe_iOS App_mail</value>
+      <value>Object Repository/Page_Free Email Addresses Web based and secure Email - mailcom/Page_Free Email Addresses Web based and secure Email - mailcom/iframe_iOS App_mail</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//button[@id='idab']</value>
+      <value>//button[@id='compose-send-button']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='idd6']/div[2]/div[2]/button</value>
+      <value>//div[@id='id7c']/div[2]/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

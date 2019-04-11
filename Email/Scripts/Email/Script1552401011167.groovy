@@ -21,7 +21,7 @@ WebUI.click(findTestObject('a_Log in'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('input_Email_username'), 'katalontest@dr.com')
+WebUI.setText(findTestObject('input_Email_username'), 'katalon@mail.com')
 
 WebUI.delay(2)
 
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('a_Compose E-mail'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('input_To'), 'rafaelpolo@cbit-online.com')
+WebUI.setText(findTestObject('input_To'), 'jackson.hernandez@periferiaitgroup.com')
 
 WebUI.delay(2)
 
@@ -57,5 +57,5 @@ WebUI.click(findTestObject('span_wellplayed'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Free Email Addresses Web based and secure Email - mailcom/button_Send'))
+WebUI.click(findTestObject('Page_Free Email Addresses Web based and secure Email - mailcom/Page_Free Email Addresses Web based and secure Email - mailcom/button_Send_mole'))
 
